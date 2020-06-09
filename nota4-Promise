@@ -1,0 +1,20 @@
+Promesas se declara así:
+let promise = new Promise(function(resolve, reject) {
+  // executor (the producing code, "singer")
+  Que es, de quien es.
+});
+
+Aprender mas promesas.
+Generadores
+
+function* generateSequence() {
+  yield 1;
+  yield 2;
+  return 3;
+}
+Exportar un modulo a otro.
+import {sayHi} from './sayHi.js';
+export function sayHi(user) {
+  alert(`Hello, ${user}!`);
+}
+<script type="module" src="user.js"></script> lo mismo.

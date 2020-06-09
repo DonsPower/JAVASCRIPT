@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <script type="text/javascript">
+    let group = {
+      title: "Our Group",
+      students: ["John", "Pete", "Alice"],
+      showList() {
+        this.students.forEach(
+          student => alert(this.title + ': ' + student)
+        );
+      }
+    };
+    group.showList();
+  let animal = {
+  eats: true,
+  walk() {
+    alert("Animal walk");
+  }
+};
+
+let rabbit = {
+  jumps: true,
+  eat: "Zanahorias",
+  //__proto__: animal
+};
+animal.__proto__= rabbit;
+// walk is taken from the prototype
+rabbit.walk(); // Animal walk
+alert(rabbit.jumps);
+alert(animal.eat);
+  </script>
+  <body>
+    ph
+  </body>
+</html>

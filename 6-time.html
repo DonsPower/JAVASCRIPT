@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <script type="text/javascript">
+    let now = new Date();
+    //alert( now ); // shows current date/time
+
+    function sum(... a){
+      var suma=0;
+      for (var i of a) {
+        suma+=i
+      }
+      return suma;
+    }
+    alert(sum(5,5,5,5));
+    //window.alert("Diferente alert¿?¡?");
+    //alert(sum.length);
+    let sumer = new Function("a", "b", "return a + b");
+      alert( sumer(1, 2) ); // 3
+      function sayHi() {
+  alert('Hello');
+}
+// repeat with the interval of 2 seconds
+let timerId = setInterval(() => alert('tick'), 2000);
+
+// after 5 seconds stop
+setTimeout(() => { clearInterval(timerId); alert('stop'); }, 5000);
+setTimeout(sayHi, 1000);
+
+
+  </script>
+  <body>
+    <h1>Esto es el tiempo</h1>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>generadores.</title>
+  </head>
+  <script type="text/javascript">
+    function* generateSequence() {
+      yield 4;
+      yield 2;
+      return 6;
+    }
+
+      // "generator function" creates "generator object"
+      let generator = generateSequence();
+
+      let one = generator.next();
+      let two = generator.next();
+      alert(JSON.stringify(two));
+
+  </script>
+  <body>
+
+  </body>
+</html>

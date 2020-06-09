@@ -1,0 +1,13 @@
+Las funciones tienen las siguientes caracteristicas:
+NOMBRE
+LONGITUD
+Counter cuenta cuantas veces se hace llamar la funcion.
+Nueva funcion.
+let sum = new Function('a', 'b', 'return a + b');
+alert( sum(1, 2) ); // 3
+Estudiar mas set y get
+rabbit.__proto__ = animal; Rabit es la herencia de animal.
+Metodo super para atraer o llamar metodos de una funcion.
+Instanceof verifica que un objeto pertenece a una clase correspondiente.
+Investigar MIXINS
+Es el mismo try- catch

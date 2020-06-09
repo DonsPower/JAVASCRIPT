@@ -1,0 +1,26 @@
+ Mapa de conjuntos
+ Map es una colección de elementos de datos con clave, como un Object.
+ Pero la principal diferencia es que Map permite claves de cualquier tipo.
+new Map() - crea el mapa.
+map.set(key, value) - almacena el valor por la clave.
+map.get(key)- devuelve el valor por la clave, undefined si keyno existe en el mapa.
+map.has(key)- devuelve true si key existe, de lo contrario FALSE.
+map.delete(key) - elimina el valor por la clave.
+map.clear() - elimina todo del mapa.
+map.size - devuelve el recuento de elementos actual.
+
+
+A Setes una colección de tipos especiales: "conjunto de valores" (sin claves), donde cada valor puede aparecer solo una vez.
+
+Sus principales métodos son:
+
+new Set(iterable)- crea el conjunto, y si iterablese proporciona un objeto (generalmente una matriz), copia los valores del mismo en el conjunto.
+set.add(value) - agrega un valor, devuelve el conjunto en sí.
+set.delete(value)- elimina el valor, devuelve truesi valueexistía en el momento de la llamada, de lo contrario false.
+set.has(value)- devuelve truesi el valor existe en el conjunto, de lo contrario false.
+set.clear() - Elimina todo del conjunto.
+set.size - es el recuento de elementos
+WeakMap sirve para guardar mapas de objetos.
+weakSet sirve para lo mismo
+Puedo obtener el año tambien
+Cuando vemos 3 puntos  ... significa que es una sintaxis extendida

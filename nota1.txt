@@ -1,0 +1,29 @@
+Enxtender notas
+
+<script src="/path/to/script.js"></script>
+Const declarar variables globales.
+alert("hola pinche ${messages}")
+Como anteriores codigos podemos conversion.
+Concaenar con +
+Exponer con **
+Incrementos y decrementos son lo mismo.
+Mismos comparadores.
+prompt --> para guardar alguna informacion en una ventana
+confirm --> Para confirmar una accion retorna un true o false
+Son las mismas sentencias.
+let result = condition ? value1 : value2;
+Aprender esta sentencia.
+Mismas sentencias. or and , not for, while and switch iguales.
+mismas funciones igual el retorno.
+Lo que si puedo hacer es retornar varias cosas a la vez
+Existen for each
+Asignar Object.assign algo dentro de un objeto.
+El this lo podemos utilizar dentro del objeto //La verdad parece un arreglo XD bidimencional a vir??¡?¡? Creo que no jiji
+Los datos primitivos no les entiendo.
+Parseint tranforma la cadena en numeros
+INDEXOF Busca palabra dentro de un string.
+Tabien busca desde el final hasta adelante -->lastIndexOf<--
+includes("algo") busca si se ecuentra y manda un true o false
+slice(inicio, fin) donde queremos obtener una subcadena de la cadena.
+localeCompare compara si es un string es como objetcstring
+splice para agregar en medio de un arreglo.
