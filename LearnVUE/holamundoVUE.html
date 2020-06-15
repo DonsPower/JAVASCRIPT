@@ -2,11 +2,34 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hola Mundo con VUE</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="holamundoVUE.js"></script>
+    <title>Registro -Alumno</title>
+    
   </head>
   <body>
-    <h1>Holaw  mundo en VUE 1</h1>
+    <div id="appi">
+      <h1>{{titulo}}</h1>
+      <p>Agrega producto</p>
+      <input type="text" v-model="add">
+      <p>Agrega cantida</p>
+      <input type="number" v-model="cant">
+      <button @Click="agregar">ADD</button>
+      
+      <ul>
+        <li v-for="i of objeto">
+          <input type="number" v-model.number="i.cantidad">
+           - {{i.nombre}}
+          <span v-if="i.cantidad == 0">No hay frutas</span>
+          <span v-if="i.cantidad >= 19">Si hay frutas</span>
+        </li>
+      </ul>
+      <h3>TOTAL: {{sumartotal}}</h3>
+      <p>¿desea quitar alguna fruta?</p>
+      <input type="text" v-model="add" @keyup.enter="buscar">
+      <button v-if="add!='' "@click="buscar">vue</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/holamundoVUE.js"></script>
   </body>
 </html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>CSS</title>
+   <link rel="stylesheet" href="css/css-vue.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      
+</head>
+<body>
+    <H1>CSS-VUE</H1>
+       <div id="app" class="container mt-5">
+           <div v-bind:class="fondo">
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt reiciendis eum molestiae magni explicabo? Repudiandae consequuntur perferendis labore quas quibusdam, asperiores tempora, optio repellendus voluptates, cupiditate eum rem. Odit, est.</p>
+           </div>
+           <input type="text" class="form-control my-3" v-model="fondo">
+           <div class="text-white p-3" :class="{'bg-info' : color}">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde corrupti facilis velit molestias reprehenderit tempore quia id, architecto voluptates atque voluptatibus facere maxime, magnam vel quis magni fugiat. Velit, illum!</p>
+           </div>
+          <button @click="color = !color">press</button>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/css-vue.js"></script>
+  
+</body>
+</html>

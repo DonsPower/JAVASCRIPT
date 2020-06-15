@@ -1,0 +1,13 @@
+.margin{
+    
+    padding: 3%;
+    background-color: rgb(204, 204, 58);
+    text-align: center;
+}
+.img{
+    background-color: slategrey;
+    margin-left: 7%;
+    width: 90%;
+    height: 100px;
+    
+}
